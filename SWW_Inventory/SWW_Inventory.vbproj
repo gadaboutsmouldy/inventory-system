@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB66A4CA-E7A3-40E3-AD0C-EBEF47C3B13A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SWW_Inventory.My.MyApplication</StartupObject>
+    <RootNamespace>SWW_Inventory</RootNamespace>
+    <AssemblyName>SWW_Inventory</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SWW_Inventory.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <GenerateSerializationAssemblies>On</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SWW_Inventory.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>stock-vector-tattoo-dragon-drawing-vector-106926233.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Design, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calculator.Designer.vb">
+      <DependentUpon>Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ControlPanel.Designer.vb">
+      <DependentUpon>ControlPanel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ControlPanel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerList.Designer.vb">
+      <DependentUpon>CustomerList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.vb">
+      <DependentUpon>Customers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Customers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inventoryDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inventoryDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryDataSet121.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inventoryDataSet121.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryDataSet162.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inventoryDataSet162.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryDataSet18.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inventoryDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryDataSet18.vb">
+      <DependentUpon>inventoryDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryDataSet20.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inventoryDataSet20.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryDataSet21.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inventoryDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryDataSet21.vb">
+      <DependentUpon>inventoryDataSet21.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="inventoryDataSet9.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>inventoryDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceList.Designer.vb">
+      <DependentUpon>InvoiceList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiceNew.Designer.vb">
+      <DependentUpon>InvoiceNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="PrintInvoice.Designer.vb">
+      <DependentUpon>PrintInvoice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrintInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintQuotation.Designer.vb">
+      <DependentUpon>PrintQuotation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PrintQuotation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductList.Designer.vb">
+      <DependentUpon>ProductList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ProductList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Products.Designer.vb">
+      <DependentUpon>Products.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Products.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyConnection.vb" />
+    <Compile Include="LoginPage.Designer.vb">
+      <DependentUpon>LoginPage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuotationList.Designer.vb">
+      <DependentUpon>QuotationList.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QuotationList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuotationNew.Designer.vb">
+      <DependentUpon>QuotationNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="QuotationNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Users.Designer.vb">
+      <DependentUpon>Users.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Users.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlPanel.resx">
+      <DependentUpon>ControlPanel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerList.resx">
+      <DependentUpon>CustomerList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceList.resx">
+      <DependentUpon>InvoiceList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiceNew.resx">
+      <DependentUpon>InvoiceNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintInvoice.resx">
+      <DependentUpon>PrintInvoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintQuotation.resx">
+      <DependentUpon>PrintQuotation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProductList.resx">
+      <DependentUpon>ProductList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Products.resx">
+      <DependentUpon>Products.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginPage.resx">
+      <DependentUpon>LoginPage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuotationList.resx">
+      <DependentUpon>QuotationList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QuotationNew.resx">
+      <DependentUpon>QuotationNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Users.resx">
+      <DependentUpon>Users.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="inventoryDataSet.xsc">
+      <DependentUpon>inventoryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inventoryDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inventoryDataSet.xss">
+      <DependentUpon>inventoryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet121.xsc">
+      <DependentUpon>inventoryDataSet121.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet121.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inventoryDataSet121.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inventoryDataSet121.xss">
+      <DependentUpon>inventoryDataSet121.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet162.xsc">
+      <DependentUpon>inventoryDataSet162.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet162.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inventoryDataSet162.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inventoryDataSet162.xss">
+      <DependentUpon>inventoryDataSet162.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet18.xsc">
+      <DependentUpon>inventoryDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inventoryDataSet18.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inventoryDataSet18.xss">
+      <DependentUpon>inventoryDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet20.xsc">
+      <DependentUpon>inventoryDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet20.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inventoryDataSet20.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inventoryDataSet20.xss">
+      <DependentUpon>inventoryDataSet20.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet21.xsc">
+      <DependentUpon>inventoryDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet21.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inventoryDataSet21.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inventoryDataSet21.xss">
+      <DependentUpon>inventoryDataSet21.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet9.xsc">
+      <DependentUpon>inventoryDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="inventoryDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>inventoryDataSet9.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="inventoryDataSet9.xss">
+      <DependentUpon>inventoryDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closehover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers_hover1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers_idle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\products_hover1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\products_idle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quotation_idle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tstinginvoice_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tstinginvoice_idle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_hover1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_idle1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers_idle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\invoice_idle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\products_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\products_idle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quotation_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quotation_idle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_idle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculator_idle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray.jpg" />
+    <None Include="Resources\add-1-icon.png" />
+    <None Include="Resources\add-1-iconhover.png" />
+    <None Include="Resources\new.png" />
+    <None Include="Resources\editship.png" />
+    <None Include="Resources\editshiphover.png" />
+    <None Include="Resources\deletephover.png" />
+    <None Include="Resources\deletep.png" />
+    <None Include="Resources\1.png" />
+    <None Include="Resources\newhover.png" />
+    <None Include="Resources\neww.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\edithover.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\deletehover.png" />
+    <None Include="Resources\logoKO.png" />
+    <None Include="Resources\add2.png" />
+    <Content Include="Resources\Power_Button.png" />
+    <Content Include="Resources\Power_Button1.png" />
+    <None Include="Resources\Warning-icon-hi.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\search1.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\savehover.png" />
+    <None Include="Resources\print_hover.png" />
+    <None Include="Resources\print.png" />
+    <Content Include="stock-vector-tattoo-dragon-drawing-vector-106926233.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

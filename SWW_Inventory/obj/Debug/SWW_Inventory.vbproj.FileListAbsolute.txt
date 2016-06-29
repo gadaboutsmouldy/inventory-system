@@ -1,0 +1,141 @@
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.exe.config
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.exe
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.pdb
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.xml
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.LoginPage.resources
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.SplashScreen.resources
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Resources.resources
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.vbproj.GenerateResource.Cache
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.exe
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.xml
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.pdb
+c:\users\kyle\documents\visual studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.ControlPanel.resources
+C:\Users\KyLe\Documents\Visual Studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.vbprojResolveAssemblyReference.cache
+C:\Users\KyLe\Documents\Visual Studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Products.resources
+C:\Users\KyLe\Documents\Visual Studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Customers.resources
+C:\Users\KyLe\Documents\Visual Studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Invoice.resources
+C:\Users\KyLe\Documents\Visual Studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Users.resources
+C:\Users\KyLe\Documents\Visual Studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Calculator.resources
+C:\Users\KyLe\Documents\Visual Studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Quotation.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.exe.config
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.exe
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.xml
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.pdb
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.exe
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.pdb
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.xml
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.vbprojResolveAssemblyReference.cache
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Calculator.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.ControlPanel.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Customers.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Invoice.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Products.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.LoginPage.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Quotation.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.SplashScreen.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Resources.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Users.resources
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.vbproj.GenerateResource.Cache
+C:\Users\KyLe\Desktop\test\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.QuotationList.resources
+C:\Users\KyLe\Documents\Visual Studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.QuotationList.resources
+C:\Users\KyLe\Documents\Visual Studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.CustomerList.resources
+C:\Users\KyLe\Documents\Visual Studio 2013\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.ProductList.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.exe.config
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.exe
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.xml
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.pdb
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.exe
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.pdb
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.xml
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.vbprojResolveAssemblyReference.cache
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Calculator.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.ControlPanel.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.CustomerList.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Customers.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Invoice.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.ProductList.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Products.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.LoginPage.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Quotation.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.QuotationList.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.SplashScreen.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Resources.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Users.resources
+C:\Users\KyLe\Desktop\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.vbproj.GenerateResource.Cache
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.exe.config
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.exe
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.xml
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.pdb
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.exe
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.pdb
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.xml
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.vbprojResolveAssemblyReference.cache
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Calculator.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.ControlPanel.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.CustomerList.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Customers.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Invoice.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.ProductList.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Products.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.LoginPage.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Quotation.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.QuotationList.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.SplashScreen.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Resources.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Users.resources
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.vbproj.GenerateResource.Cache
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\KyLe\Documents\Visual Studio 2015\Projects\SWW_Inventory\SWW_Inventory\bin\Debug\stdole.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.exe.config
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.exe
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.xml
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.pdb
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.exe
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.pdb
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\SWW_Inventory.xml
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.DataDefModel.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.Controllers.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.CommLayer.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\ShockwaveFlashObjects.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\stdole.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.vbprojResolveAssemblyReference.cache
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Calculator.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.ControlPanel.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.CustomerList.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Customers.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.ProductList.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Products.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.LoginPage.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.SplashScreen.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Resources.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Users.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.vbproj.GenerateResource.Cache
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Invoice.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.Quotation.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.QuotationList.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.InvoiceList.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.PrintInvoice.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\obj\Debug\SWW_Inventory.PrintQuotation.resources
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\KyLe\Desktop\VBNEw\SWW_Inventory\SWW_Inventory\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml

@@ -1,0 +1,671 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SWW_Inventory
+</name>
+</assembly>
+<members>
+<member name="T:SWW_Inventory.inventoryDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet.invoicenewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet.invoicenewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet.invoicenewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSetTableAdapters.invoicenewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SWW_Inventory.inventoryDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SWW_Inventory.inventoryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SWW_Inventory.inventoryDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSetTableAdapters.TableAdapterManager.UpdateAll(SWW_Inventory.inventoryDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet12">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet12.customersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet12.customersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet12.customersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet12TableAdapters.customersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet12TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet12TableAdapters.TableAdapterManager.UpdateUpdatedRows(SWW_Inventory.inventoryDataSet12,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet12TableAdapters.TableAdapterManager.UpdateInsertedRows(SWW_Inventory.inventoryDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet12TableAdapters.TableAdapterManager.UpdateDeletedRows(SWW_Inventory.inventoryDataSet12,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet12TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet12TableAdapters.TableAdapterManager.UpdateAll(SWW_Inventory.inventoryDataSet12)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet12TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet12TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet16">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet16.customersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet16.customersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet16.customersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet16TableAdapters.customersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet16TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet16TableAdapters.TableAdapterManager.UpdateUpdatedRows(SWW_Inventory.inventoryDataSet16,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet16TableAdapters.TableAdapterManager.UpdateInsertedRows(SWW_Inventory.inventoryDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet16TableAdapters.TableAdapterManager.UpdateDeletedRows(SWW_Inventory.inventoryDataSet16,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet16TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet16TableAdapters.TableAdapterManager.UpdateAll(SWW_Inventory.inventoryDataSet16)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet16TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet16TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet18">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet18.productsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet18.productsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet18.productsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet18TableAdapters.productsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet18TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet18TableAdapters.TableAdapterManager.UpdateUpdatedRows(SWW_Inventory.inventoryDataSet18,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet18TableAdapters.TableAdapterManager.UpdateInsertedRows(SWW_Inventory.inventoryDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet18TableAdapters.TableAdapterManager.UpdateDeletedRows(SWW_Inventory.inventoryDataSet18,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet18TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet18TableAdapters.TableAdapterManager.UpdateAll(SWW_Inventory.inventoryDataSet18)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet18TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet18TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet20">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet20.adminDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet20.adminRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet20.adminRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet20TableAdapters.adminTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet20TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet20TableAdapters.TableAdapterManager.UpdateUpdatedRows(SWW_Inventory.inventoryDataSet20,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet20TableAdapters.TableAdapterManager.UpdateInsertedRows(SWW_Inventory.inventoryDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet20TableAdapters.TableAdapterManager.UpdateDeletedRows(SWW_Inventory.inventoryDataSet20,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet20TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet20TableAdapters.TableAdapterManager.UpdateAll(SWW_Inventory.inventoryDataSet20)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet20TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet20TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet21">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet21.quotationnewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet21.quotationnewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet21.quotationnewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet21TableAdapters.quotationnewTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet21TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet21TableAdapters.TableAdapterManager.UpdateUpdatedRows(SWW_Inventory.inventoryDataSet21,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet21TableAdapters.TableAdapterManager.UpdateInsertedRows(SWW_Inventory.inventoryDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet21TableAdapters.TableAdapterManager.UpdateDeletedRows(SWW_Inventory.inventoryDataSet21,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet21TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet21TableAdapters.TableAdapterManager.UpdateAll(SWW_Inventory.inventoryDataSet21)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet21TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet21TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet9">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet9.productsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet9.productsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet9.productsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet9TableAdapters.productsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet9TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet9TableAdapters.TableAdapterManager.UpdateUpdatedRows(SWW_Inventory.inventoryDataSet9,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet9TableAdapters.TableAdapterManager.UpdateInsertedRows(SWW_Inventory.inventoryDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet9TableAdapters.TableAdapterManager.UpdateDeletedRows(SWW_Inventory.inventoryDataSet9,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet9TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SWW_Inventory.inventoryDataSet9TableAdapters.TableAdapterManager.UpdateAll(SWW_Inventory.inventoryDataSet9)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet9TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SWW_Inventory.inventoryDataSet9TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:SWW_Inventory.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.add_1_icon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.add_1_iconhover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.add2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.calculator_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.calculator_idle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.close">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.closehover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.customers_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.customers_idle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.deletehover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.deletep">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.deletephover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.edithover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.editship">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.editshiphover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.gray">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.invoice_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.invoice_idle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.logoKO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.newhover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.neww">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.Power_Button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.Power_Button1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.print_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.products_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.products_idle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.quotation_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.quotation_idle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.savehover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.search1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.user_hover">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.user_idle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SWW_Inventory.My.Resources.Resources.Warning_icon_hi">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>
